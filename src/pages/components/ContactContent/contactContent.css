@@ -1,0 +1,29 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    /* padding: 20px; */
+}
+
+.contactTitle {
+    padding: 0px 20px 20px 20px;
+    margin: 0;
+}
+
+p {
+    padding: 20px;
+}
+
+.contactLinks a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    padding: 10px;
+    border: 1px solid rgb(213, 122, 102);
+    border-radius: 2px;
+}
