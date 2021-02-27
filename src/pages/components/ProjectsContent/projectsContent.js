@@ -5,10 +5,10 @@ import roboFriends from '../ProjectsContent/robofriends.png';
 import faceRecog from '../ProjectsContent/face-recog.png';
 import backgroundGenerator from '../ProjectsContent/bg-gen.png';
 import oldProfileWebsite from '../ProjectsContent/old-profile-website.png';
-import pier from '../ProjectsContent/pier3.png';
-import boat from '../ProjectsContent/boat.png';
-import plane from '../ProjectsContent/plane2.png';
-import bb from '../ProjectsContent/bb.png';
+import pier from '../../../Images/pier3.png';
+import boat from '../../../Images/boat.png';
+import plane from '../../../Images/plane2.png';
+import bb from '../../../Images/bb.png';
 
 
 export default function ProjectsContent() {
