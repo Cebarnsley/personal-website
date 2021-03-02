@@ -1,15 +1,22 @@
-import React from 'react';
+import React,  { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './modal.css';
 
 
-const Modal = ({ children} ) => (
-    ReactDOM.createPortal(
-      <div className="modal">
-        {children}
-      </div>,
-      document.getElementById('portal')
-    )
-  );
 
-export default Modal;
+export default class  Modal extends Component {
+  render() {
+    if (typeof window !== 'undefined') {
+      return (
+        ReactDOM.createPortal(
+                <div className="modal">
+                  {this.props.children}
+                </div>,
+                document.getElementById('portal')
+              )
+            );
+      
+    }
+    return null
+  }
+}
