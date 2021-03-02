@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-// import bgImage from "../../public/img/desk3.png";
+// import bgImage from '../Images/desk3.png';
 import Header from "./components/header.js";
 import Modal from "./components/Modal/modal";
 import AboutContent from "./components/AboutContent/aboutContent";
@@ -42,7 +42,7 @@ export default function Home()  {
   };
 
   return (
-    <div className="mainPageContainer" style={{ backgroundImage: "url(/img/desk3.png)" }}>
+    <div className="mainPageContainer" >
        <div id="portal"></div>
        {/* Modal */}
        {showModal === true ? (

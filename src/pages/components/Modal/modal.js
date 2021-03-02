@@ -4,6 +4,7 @@ import './modal.css';
 
 
 
+
 export default class  Modal extends Component {
   render() {
     if (typeof window !== 'undefined') {

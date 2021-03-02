@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: url('/images/desk3.png');
     /* background-color: rgb(124, 58, 81); */
     background-attachment: fixed;
     background-repeat: no-repeat;
