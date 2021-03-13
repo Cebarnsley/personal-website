@@ -31,7 +31,7 @@ export default function ProjectsContent() {
 
   return (
       <div className="projectsContainer">
-        <h3 className="projectTitle">Websites and Apps</h3>
+        <h2 className="projectTitle">Projects</h2>
         <div className="websiteProjects">
 
             
@@ -80,7 +80,7 @@ export default function ProjectsContent() {
 
         </div>
         </div>
-        <h3 className="projectTitle">Blender</h3>
+        {/* <h3 className="projectTitle">Blender</h3>
         <div className="blenderProjects">
 
         
@@ -106,7 +106,7 @@ export default function ProjectsContent() {
                       
     
 
-        </div>
+        </div> */}
      
       </div>
   
